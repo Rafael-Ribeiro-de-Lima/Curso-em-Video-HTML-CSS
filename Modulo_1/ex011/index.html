@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente a diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto grande flexível">
+        <!-- ordem dos tamanhos importa!!!-->
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/American_Idle-RKVC.mp3" controls autoplay loop></audio>
+    <!-- mp3, wav, dgg-->
+
+    <audio preload="none" controls>
+    <!--no preload "auto", ele só vai considerar o site carregado quando a midia estiver 100% carregado, no medata ele vai carregar só o nome do arquivo e algumas outras informações, no none ele só vai carregar quando o usuário clicar-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não conseguiu reproduzir o PodCast, <a href="midia/guanacast-33.mp3">clique aqui para baixar.</a></p>
+    </audio>
+</body>
+</html>

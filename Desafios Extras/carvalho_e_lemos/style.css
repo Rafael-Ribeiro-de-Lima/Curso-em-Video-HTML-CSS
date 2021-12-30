@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+    background-color: #e6e7e8;
+}
+
+body{
+    max-width: 1000px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.header{
+    background-color: #e1ebf2;
+    margin-top: -10px;
+    height: 135px;
+}
+
+.logo img{
+    position: relative;
+    top: 25px;
+    left: 7%;
+}
+
+.areas img{
+    position: relative;
+    top: -45px;
+    left: 70%;
+}
+
+.menu{
+    background-color: #5d7383;
+    height: 45px;
+    font-size: 1rem;
+    position: relative;
+    top: -20px;
+}
+
+.menu ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    position: relative;
+    left: 50px;
+    top: -5px;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #bbc9d3;
+}
+
+.conteudo{
+    height: 75%;
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
+
+.conteudo p{
+    color:  #5d7383;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.rodape{
+    max-width: 1000px;
+    position: relative;
+    top: -20px;
+    height: 79px;
+    background-color: #5d7383;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 12px;
+}
+
+#esquerda{
+    margin-top: 10px;
+    text-align: right;
+    color: #fff;
+    float: left;
+    position: relative;
+    padding-right: 5px;
+    right: 25%;
+}
+
+#direita{
+    margin-top: 10px;
+    text-align: left;
+    color: #fff;
+    float: left;
+    position: relative;
+    padding-left: 5px;
+    left: 25%;
+}

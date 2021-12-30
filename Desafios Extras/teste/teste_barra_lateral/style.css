@@ -1,0 +1,42 @@
+*{
+    margin: 0px 0px;
+}
+
+body{
+    background-color: grey;
+    position: relative;
+    display: flex;
+}
+
+.menu{
+    background-color: blue;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+
+
+.site{
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    margin-left: 200px;
+}
+.menu1{
+    background-color: white;
+    min-width: 250px;
+    max-width: 450px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.menu2{
+    min-width: 350px;
+    max-width: 600px;
+    background-color: red;
+    height: 150px;
+    margin: 25px 25px;
+    display: inline-block;
+}
+
